@@ -1,7 +1,7 @@
 name: build Project 
 
 on: aws.yml/all-things-considered-withdrawal
-  push: project all-things-considered withdrawal -marcelmonde 
+  push:
     branches:
       - main
       - master
