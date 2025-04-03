@@ -5,7 +5,7 @@ on:
   push:
     branches: [ "main" ]
 env:
-  git aws_region: [-region us-east-2, japan-east-1, us-west-1]            
+  git aws_region: [region] global           
   git service: -ecr_service [service_all_things_considered_withdrawal.aws]
 git create: -ecs_cservice [aws_ecs_service_all_things_considered_withdrawal.aws.yml]                
   git build: -ecs_cluster [diversity_consult_cluster.file]
